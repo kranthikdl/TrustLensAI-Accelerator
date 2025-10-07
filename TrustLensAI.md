@@ -1,4 +1,4 @@
-# Trust Lens AI Accelerator : Original intent / project was for an Enterprise AI Audit & Governance Platform NOT TrustLens Product . Reuse as much as possible to buuild the demo flow quickly
+# TrustLens AI Accelerator : Original intent was for an Enterprise AI Audit & Governance Platform project NOT TrustLens AI Product . Reuse as much as possible to build the demo flow quickly
 
 **Mission**: Create an AI-powered governance platform that automates compliance, manages risk, and ensures ethical AI deployment across enterprise systems.
 
