@@ -7,9 +7,9 @@
 
 ---
 
-## Learning Objectives
+##  Objectives
 
-By the end of 4 hours, each pair will have built and deployed:
+Build and deploy:
 - Multi-agent AI governance system with automated risk assessment
 - RAG-powered policy compliance platform with regulatory knowledge
 - Context-aware audit conversations with persistent governance memory
@@ -89,7 +89,6 @@ graph TB
 
 ---
 
-## What You'll Receive (Instructor-Provided Foundation)
 
 ### Starter Kit Contents
 
@@ -202,9 +201,7 @@ class AuditDocumentationAgent:
 
 ---
 
-## 4-Hour Implementation Sprint
-
-### Phase 1: Setup & Basic Governance Assessment (30 minutes)
+### Phase 1: Setup & Basic Governance Assessment 
 
 #### Sprint Goals
 - Environment setup and Gemini API integration
@@ -221,24 +218,6 @@ class AuditDocumentationAgent:
 5. Launch platform: npm start
 ```
 
-#### AI-Assisted Development
-```python
-# Example: Customize the risk assessment agent
-@ai_prompt_template
-def governance_risk_prompt(ai_system, assessment_criteria):
-    return f"""
-    You are an AI governance specialist. Assess this AI system: "{ai_system}"
-    
-    Evaluate governance risks across:
-    - Bias and fairness implications
-    - Data privacy and security concerns
-    - Regulatory compliance requirements (EU AI Act, NIST)
-    - Explainability and transparency needs
-    
-    Use assessment criteria from governance database. Provide risk scores (1-10).
-    Include specific mitigation recommendations and compliance requirements.
-    """
-```
 
 #### Success Metrics
 - Governance officer can assess AI systems and get risk evaluations
@@ -247,7 +226,7 @@ def governance_risk_prompt(ai_system, assessment_criteria):
 
 ---
 
-### Phase 2: Policy Logic & Compliance Checking (30 minutes)
+### Phase 2: Policy Logic & Compliance Checking 
 
 #### Sprint Goals
 - Implement automated policy compliance algorithms
@@ -319,9 +298,8 @@ class GovernanceAuditLogger:
 - Bias detection identifies potential fairness issues
 - Audit trail captures all governance decisions with integrity verification
 
----
 
-### Phase 3: RAG + Memory + Multi-Agent Governance Workflow (90 minutes)
+### Phase 3: RAG + Memory + Multi-Agent Governance Workflow
 
 #### Sprint Goals - Advanced Governance Intelligence
 - Build comprehensive regulatory knowledge RAG system
@@ -462,7 +440,7 @@ class GovernanceMonitoringEngine:
 
 ---
 
-### Phase 4: Production Deployment & Enterprise Governance Integration (90 minutes)
+### Phase 4: Production Deployment & Enterprise Governance Integration 
 
 #### Sprint Goals - Enterprise Governance Platform
 - Implement enterprise-grade governance security
@@ -648,28 +626,27 @@ class EnterpriseGovernanceAuditor:
 
 ---
 
-## Final Demo Requirements
+## Final Demo 
 
 ### Enterprise Governance Platform Showcase
 
-Each pair must demonstrate a complete governance workflow:
 
-1. **AI System Risk Assessment** (2 minutes)
+1. **AI System Risk Assessment** 
    - Natural language governance query
    - Multi-agent risk evaluation coordination
    - SQLite governance database integration with policy compliance
 
-2. **Compliance Monitoring Process** (2 minutes)
+2. **Compliance Monitoring Process** 
    - Automated policy compliance checking
    - RAG-powered regulatory requirement analysis
    - Real-time governance risk detection and alerting
 
-3. **Production Capabilities** (1 minute)
+3. **Production Capabilities**
    - Enterprise governance security features
    - Automated compliance reporting and audit trails
    - Integration with enterprise AI systems and monitoring
 
-### Evaluation Criteria
+### Accelerator Setup and Validation Criteria
 
 | Metric Category | Target | Measurement Method |
 |----------------|--------|-------------------|
@@ -681,25 +658,6 @@ Each pair must demonstrate a complete governance workflow:
 
 ---
 
-## Bonus Challenges (For Advanced Pairs)
-
-### Advanced Governance Features
-- **AI Model Explainability**: Automated generation of model interpretability reports
-- **Continuous Bias Monitoring**: Real-time fairness metric tracking with drift detection
-- **Multi-Stakeholder Governance**: Collaborative governance workflows with role-based permissions
-- **Predictive Risk Assessment**: Machine learning models for governance risk forecasting
-
-### Innovation Opportunities
-Enterprise AI governance platforms are becoming the central nervous system for AI operations, automating compliance and risk management.
-
-Consider implementing cutting-edge governance AI:
-- **Governance Knowledge Graphs**: Interconnected policy and regulatory relationship mapping
-- **Automated Policy Generation**: AI-assisted governance policy drafting based on regulatory requirements
-- **Cross-System Risk Correlation**: Enterprise-wide AI risk pattern detection and analysis
-- **Regulatory Change Impact Analysis**: Automated assessment of regulatory updates on existing AI systems
-
----
-
 ## Resources & Documentation
 
 ### Essential Links
@@ -708,18 +666,3 @@ Consider implementing cutting-edge governance AI:
 - **Regulatory Framework Guide**: EU AI Act, NIST AI RMF, and ISO 42001 implementation guidelines
 - **Enterprise Integration**: MLOps, data governance, and audit system integration documentation
 
-### Getting Help
-- **Technical Issues**: Instructor assistance for governance system integration
-- **Regulatory Questions**: Compliance framework interpretation and implementation guidance
-- **Risk Assessment**: Methodology guidance for comprehensive AI risk evaluation
-- **Audit Documentation**: Best practices for governance audit trail and evidence collection
-
----
-
-## Project Impact & Career Opportunities
-
-This AI governance project reflects real industry implementations where organizations need comprehensive governance frameworks to manage AI risks and ensure regulatory compliance in an evolving regulatory landscape.
-
-By completing this sprint, you'll have built enterprise-grade governance technology comparable to platforms used by major organizations, positioning you for high-growth roles in the rapidly expanding AI governance market.
-
-**Ready to build the infrastructure of trust for enterprise AI? Let's create the future of AI governance.**
