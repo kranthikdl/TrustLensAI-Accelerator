@@ -1,0 +1,20 @@
+# env and secrets
+.env
+.env.*
+!*.example
+*.key
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# node
+frontend/node_modules/
+
+# data and logs
+data/
+logs/
+*.log
+*.db
+data/chromadb/
