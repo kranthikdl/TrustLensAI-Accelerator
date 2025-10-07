@@ -1,4 +1,4 @@
-# Trust Lens AI : Enterprise AI Audit Platform
+# Trust Lens AI : Enterprise AI Audit & Governance Platform
 ## Project Overview - Building the Future of AI Trust 
 
 **Mission**: Create an AI-powered governance platform that automates compliance, manages risk, and ensures ethical AI deployment across enterprise systems.
